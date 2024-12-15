@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store DevDu - Produtos Digitais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="imgs/LOGO.png" alt="Logo da Digital Store" />
+                <h1>Store DevDu</h1>
+            </div>
+            <div class="nav-icons">
+                <button aria-label="Entrar no Perfil">Perfil</button>
+                <button aria-label="Ver Carrinho">Carrinho</button>
+            </div>
+        </header>
+
+        <section class="categories">
+            <div class="category-list">
+                <button class="category-item active" data-category="todos" aria-label="Mostrar Todos os Produtos">
+                    Todos
+                </button>
+                <button class="category-item" data-category="desenvolvimento" aria-label="Filtrar Produtos de Desenvolvimento">
+                    Desenvolvimento
+                </button>
+                <button class="category-item" data-category="design" aria-label="Filtrar Produtos de Design">
+                    Design
+                </button>
+                <button class="category-item" data-category="marketing" aria-label="Filtrar Produtos de Marketing">
+                    Marketing
+                </button>
+                <button class="category-item" data-category="jogos" aria-label="Filtrar Produtos de Jogos">
+                    Jogos
+                </button>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="product-card" data-category="desenvolvimento">
+                <img src="imgs/wallhaven-jxlwpm.jpg" alt="Curso de Desenvolvimento Web" />
+                <h3>Curso de Desenvolvimento Web</h3>
+                <p>R$ 99,90</p>
+                <button aria-label="Adicionar Curso de Desenvolvimento Web ao Carrinho">
+                    Adicionar ao Carrinho
+                </button>
+            </div>
+            <div class="product-card" data-category="design">
+                <img src="imgs/wallhaven-jxlwpm.jpg" alt="E-book de Design UX" />
+                <h3>E-book de Design UX</h3>
+                <p>R$ 49,90</p>
+                <button aria-label="Adicionar E-book de Design UX ao Carrinho">
+                    Adicionar ao Carrinho
+                </button>
+            </div>
+            <div class="product-card" data-category="marketing">
+                <img src="imgs/wallhaven-jxlwpm.jpg" alt="Template de Marketing Digital" />
+                <h3>Template de Marketing Digital</h3>
+                <p>R$ 29,90</p>
+                <button aria-label="Adicionar Template de Marketing Digital ao Carrinho">
+                    Adicionar ao Carrinho
+                </button>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
